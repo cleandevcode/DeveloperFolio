@@ -221,12 +221,17 @@ body {
   margin: 2rem 0;
 }
 
-.techs {
+.techImage {
+  width: 70px;
+}
+
+.d-flex {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.techs {
   width: 100%;
-  /* background: #e7dddd5c; */
 
   box-shadow: 3px 2px 10px gray;
   min-height: 12rem;

@@ -25,24 +25,24 @@ const Nav = () => {
     <motion.div
       className={navbar ? "nav-container active" : "nav-container"}
       initial={{
-        opacity: 0,
+        opacity: 0
       }}
       animate={{
-        opacity: 1,
+        opacity: 1
       }}
       transition={{
-        duration: 1.5,
+        duration: 1.5
       }}
     >
       <span className="logo" onClick={() => scroll.scrollToTop()}>
-        &lt; Dev-Junaid /&gt;
+        &lt; CleanDev /&gt;
       </span>
       {/* Mobile Menu Icon */}
       <div className="menu-icon" onClick={handleClick}>
         <i className={navClicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
       {/* // */}
-      <ul className={ navClicked ? "nav-links active" : "nav-links" }>
+      <ul className={navClicked ? "nav-links active" : "nav-links"}>
         <li className="link">
           <Link
             className={navbar ? "anchor is-active" : "anchor"}

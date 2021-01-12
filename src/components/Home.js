@@ -7,7 +7,7 @@ import { animateScroll as scroll } from "react-scroll";
 const contentVariants = {
   initial: {
     translateY: "100vh",
-    opacity: 0,
+    opacity: 0
   },
 
   animate: {
@@ -15,16 +15,16 @@ const contentVariants = {
     opacity: 1,
     transition: {
       duration: 2,
-      when: "beforeChildren",
+      when: "beforeChildren"
       // staggerChildren: 0.4,
-    },
-  },
+    }
+  }
 };
 
 const childrenVariants = {
   initial: {
     opacity: 0,
-    y: 100,
+    y: 100
   },
 
   animate: {
@@ -33,15 +33,15 @@ const childrenVariants = {
     transition: {
       duration: 0.7,
       type: "spring",
-      delay: 0.5,
-    },
+      delay: 0.5
+    }
   },
 
   exit: {
     opacity: 0,
     y: -200,
-    transition: { duration: 0.2 },
-  },
+    transition: { duration: 0.2 }
+  }
 };
 
 const Home = () => {
@@ -73,7 +73,7 @@ const Home = () => {
         <h4 className="welcome-content">WELCOME TO MY WORLD</h4>
         <br />
         <h1 className="main-content">
-          Hi, I’m Junaid
+          Hi, I’m Cheng
           <motion.span
             drag={true}
             dragConstraints={{ left: 0, top: 0, bottom: 0, right: 0 }}
@@ -98,7 +98,7 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-                Web UI/UX Developer | React Developer
+                Web UI/UX Developer | React | Angular Developer
               </motion.h2>
             )}
           </AnimatePresence>
@@ -112,21 +112,12 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-                Open Source Contributor | AI Enthusiast
+                Mobile App Developer | React Native | Ionic | Flutter
               </motion.h2>
             )}
           </AnimatePresence>
         </div>
         {/* // */}
-
-        <h1>
-          {" "}
-          from Pakistan{" "}
-          <span role="img" aria-label="Pakistan Flag">
-            🇵🇰
-          </span>
-        </h1>
-
         <div className="button-wrapper">
           <button
             className="button contact-btn"
@@ -135,7 +126,7 @@ const Home = () => {
             Contact Me
           </button>
           <a
-            href="https://drive.google.com/file/d/1OcuCy-u_jIeTwEokAnPcnu77F8mDP66V/view?usp=sharing"
+            href="https://drive.google.com/file/d/1dJbL0oSJgqT9G0abibsnCdaAgS3lUtcR/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >

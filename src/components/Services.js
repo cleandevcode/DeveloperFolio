@@ -1,7 +1,7 @@
 import React from "react";
 import "./../index.css";
-import uiImage from "./../images/ui.svg";
-import webImage from "./../images/web.svg";
+import uiImage from "./../images/web.jpg";
+import webImage from "./../images/mobile.png";
 
 const Services = () => {
   return (
@@ -22,7 +22,7 @@ const Services = () => {
         <div className="services">
           <li>
             <img src={webImage} alt="" />
-            <p>React Development</p>
+            <p>Mobile Development</p>
           </li>
         </div>
       </div>
