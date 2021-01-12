@@ -6,9 +6,9 @@ const boxVariants = {
   hover: {
     scale: 1.06,
     transition: {
-      type: "spring",
-    },
-  },
+      type: "spring"
+    }
+  }
 };
 
 const Portfolio = () => {
@@ -30,28 +30,19 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://online-corona-tracker.web.app/"
+            href="http://dancassab.com/"
           >
-            <div className="project-images" id="coronaTracker"></div>
+            <div className="project-images" id="dancassab"></div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Corona Virus Tracker</h3>
+              <h3>Dancassab - online shopping</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/developer-junaid/Corona-Virus-Tracker"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-              <a
-                rel="noopener noreferrer"
-                href="https://online-corona-tracker.web.app/"
+                href="http://dancassab.com/"
                 target="_blank"
               >
                 {" "}
@@ -75,28 +66,19 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://nike-shoe-store.netlify.app/"
+            href="http://carpe-diem.mx/"
           >
-            <div className="project-images" id="shoeStore"></div>
+            <div className="project-images" id="carpediem"></div>
           </a>
 
           <div className="project-links">
             <div className="text">
-              <h3>Nike Shoe Store</h3>
+              <h3>Carpe Diem</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/developer-junaid/Nike-Shoe-Store"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-              <a
-                rel="noopener noreferrer"
-                href="https://nike-shoe-store.netlify.app/"
+                href="http://carpe-diem.mx/"
                 target="_blank"
               >
                 {" "}
@@ -120,27 +102,18 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://our-quiz.web.app/"
+            href="http://minimeisreview.com/"
           >
-            <div className="project-images" id="quizApp"></div>
+            <div className="project-images" id="minimeis"></div>
           </a>
           <div className="project-links">
             <div className="text">
-              <h3>"PWA" Quiz App</h3>
+              <h3>Minimeis Review</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/developer-junaid/Quiz-Application"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-              <a
-                rel="noopener noreferrer"
-                href="https://our-quiz.web.app/"
+                href="http://minimeisreview.com/"
                 target="_blank"
               >
                 {" "}
@@ -164,27 +137,18 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="http://explore-matiari.surge.sh/"
+            href="http://biznessapps.com/"
           >
-            <div className="project-images" id="matiari"></div>
+            <div className="project-images" id="bizness"></div>
           </a>
           <div className="project-links">
             <div className="text">
-              <h3>Matiari Tourism Website</h3>
+              <h3>Mobile App Maker</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/developer-junaid/matiariWebsite"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-              <a
-                rel="noopener noreferrer"
-                href="http://explore-matiari.surge.sh/"
+                href="http://biznessapps.com/"
                 target="_blank"
               >
                 {" "}
@@ -208,27 +172,18 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://your-expense-tracker.web.app/"
+            href="http://channelmum.com/"
           >
-            <div className="project-images" id="expenseTracker"></div>
+            <div className="project-images" id="channelmum"></div>
           </a>
           <div className="project-links">
             <div className="text">
-              <h3>"PWA" Expense Tracker</h3>
+              <h3>Channel Mum</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/developer-junaid/Expense-Tracker"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-              <a
-                rel="noopener noreferrer"
-                href="https://your-expense-tracker.web.app/"
+                href="http://channelmum.com/"
                 target="_blank"
               >
                 {" "}
@@ -252,32 +207,55 @@ const Portfolio = () => {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://launches-spacex.web.app/"
+            href="https://apps.apple.com/us/app/onrun/id1492566299"
           >
-            <div className="project-images" id="spacexWebsite"></div>
+            <div className="project-images" id="onrun"></div>
           </a>
           <div className="project-links">
             <div className="text">
-              <h3>SpaceX Website</h3>
+              <h3>OnRun</h3>
             </div>
             <div className="icons">
               <a
                 rel="noopener noreferrer"
-                target="_blank"
-                href="https://github.com/developer-junaid/SpaceX-App"
-              >
-                <i className="fab fa-github" title="github repo" id="github">
-                  {" "}
-                </i>
-              </a>
-              <a
-                rel="noopener noreferrer"
-                href="https://launches-spacex.web.app/"
+                href="https://apps.apple.com/us/app/onrun/id1492566299"
                 target="_blank"
               >
                 {" "}
                 <i
-                  className="fas fa-external-link-alt"
+                  className="fab fa-app-store"
+                  title="live preview"
+                  id="live"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </motion.div>
+        <motion.div
+          variants={boxVariants}
+          whileHover="hover"
+          className="projects"
+        >
+          <a
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://apps.apple.com/us/app/wevedo/id1312389637"
+          >
+            <div className="project-images" id="wevedo"></div>
+          </a>
+          <div className="project-links">
+            <div className="text">
+              <h3>Wevedo</h3>
+            </div>
+            <div className="icons">
+              <a
+                rel="noopener noreferrer"
+                href="https://apps.apple.com/us/app/wevedo/id1312389637"
+                target="_blank"
+              >
+                {" "}
+                <i
+                  className="fab fa-app-store"
                   title="live preview"
                   id="live"
                 ></i>
@@ -287,14 +265,6 @@ const Portfolio = () => {
         </motion.div>
         {/* // */}
       </div>
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        href="https://github.com/developer-junaid/"
-        className="button-link"
-      >
-        <button className="button">More Projects</button>
-      </a>
     </section>
   );
 };
