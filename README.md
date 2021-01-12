@@ -1,12 +1,6 @@
 # 👨‍💻 Personal DevFolio
 
-### _Personal Portfolio built using ReactJs and Animation libraries, hope you like it. Tweak it and use it !!_
-
-### Demo Video
-
-:link: https://youtu.be/Fpl3JJ-g7Bc
-
-### Link :link: https://developer-junaid.web.app/
+### Link :link: http://cleandev.netlify.app/
 
 ## Images
 
@@ -15,11 +9,6 @@
 ## Mobile Responsive
 
 <img src='./project_images/mobile.png/' />
-
-## Run Locally
-
-- Run this command `git clone https://github.com/developer-junaid/DeveloperFolio.git`
-- You are now in the dev environment and you can play around
 
 ## Tech Stack
 
@@ -34,5 +23,4 @@
 - - custom css animation
 - - framer-motion
 
-- Firebase
 - Github Actions
