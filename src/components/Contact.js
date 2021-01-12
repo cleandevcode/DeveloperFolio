@@ -63,6 +63,17 @@ const Contact = () => {
             </a>
           </div>
         </div>
+        <div className="cards">
+          <div className="contact-icons">
+            <i className="fab fa-skype"></i>
+          </div>
+          <div className="contact-text">
+            <span>Skype</span>
+          </div>
+          <div className="contact-links">
+            <span>live:.cid.90ee381067b2d16a</span>
+          </div>
+        </div>
       </div>
     </section>
   );

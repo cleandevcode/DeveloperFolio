@@ -58,7 +58,7 @@ const Skills = () => {
             <p>Node.js</p>
           </li>
         </div>
-        <div className="d-flex" style={{ marginTop: 20 }}>
+        <div className="d-flex mobile" style={{ marginTop: 20 }}>
           <li>
             <img src={reactnative} className="techImage" alt="" />
             <p>React Native</p>
