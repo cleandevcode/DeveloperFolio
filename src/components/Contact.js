@@ -9,9 +9,7 @@ const Contact = () => {
       name="contact"
       id="contact"
     >
-      <div className="profile-image">
-
-      </div>
+      <div className="profile-image"></div>
       <h1 className="heading">Contact</h1>
 
       <div className="cards-container">
@@ -24,7 +22,7 @@ const Contact = () => {
             <span>Email</span>
           </div>
           <div className="contact-links">
-            <span>qjunaid623@gmail.com</span>
+            <span>blueskyremi@outlook.com</span>
           </div>
         </div>
 
@@ -41,63 +39,28 @@ const Contact = () => {
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://github.com/developer-junaid/"
+              href="https://github.com/cleandevcode"
             >
               <i className="fab fa-github" title="github" id="github"></i>
             </a>
 
-            {/* facebook */}
+            {/* angelist */}
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.facebook.com/profile.php?id=100041078220896"
+              href="https://angel.co/u/cleancodedev"
             >
-              <i className="fab fa-facebook" title="facebook" id="facebook"></i>
+              <i className="fab fa-angellist" title="angel" id="angel"></i>
             </a>
 
             {/* linkedIn */}
             <a
               rel="noopener noreferrer"
               target="_blank"
-              href="https://www.linkedin.com/in/developer-junaid/"
+              href="https://www.linkedin.com/in/cheng-he-3ba8021b1/"
             >
               <i className="fab fa-linkedin" title="linkedin" id="linkedin"></i>
             </a>
-
-            {/* Twitter */}
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://twitter.com/Junaid084869/"
-            >
-              <i className="fab fa-twitter" title="twitter" id="twitter"></i>
-            </a>
-
-            {/* Instagram */}
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.instagram.com/developerjunaid/"
-            >
-              <i
-                className="fab fa-instagram"
-                title="instagram"
-                id="instagram"
-              ></i>
-            </a>
-          </div>
-        </div>
-
-        {/* Card 3 - Phone */}
-        <div className="cards">
-          <div className="contact-icons">
-            <i className="fas fa-phone"></i>
-          </div>
-          <div className="contact-text">
-            <span>Phone</span>
-          </div>
-          <div className="contact-links">
-            <span>(+92) 313 3084869 </span>
           </div>
         </div>
       </div>
