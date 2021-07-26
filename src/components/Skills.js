@@ -39,6 +39,14 @@ const Skills = () => {
             <i className="fab typescript fa-react"></i>
             <p>Typescript</p>
           </li>
+          <li>
+            <i className="fab java fa-java"></i>
+            <p>Java</p>
+          </li>
+          <li>
+            <i className="fab python fa-python"></i>
+            <p>Python</p>
+          </li>
         </div>
         <div className="d-flex">
           <li>
