@@ -54,13 +54,13 @@ const Contact = () => {
             </a>
 
             {/* linkedIn */}
-            {/* <a
+            <a
               rel="noopener noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/cheng-he-3ba8021b1/"
             >
               <i className="fab fa-linkedin" title="linkedin" id="linkedin"></i>
-            </a> */}
+            </a>
           </div>
         </div>
         <div className="cards">

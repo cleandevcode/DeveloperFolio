@@ -7,7 +7,7 @@ import { animateScroll as scroll } from "react-scroll";
 const contentVariants = {
   initial: {
     translateY: "100vh",
-    opacity: 0
+    opacity: 0,
   },
 
   animate: {
@@ -15,16 +15,16 @@ const contentVariants = {
     opacity: 1,
     transition: {
       duration: 2,
-      when: "beforeChildren"
+      when: "beforeChildren",
       // staggerChildren: 0.4,
-    }
-  }
+    },
+  },
 };
 
 const childrenVariants = {
   initial: {
     opacity: 0,
-    y: 100
+    y: 100,
   },
 
   animate: {
@@ -33,21 +33,22 @@ const childrenVariants = {
     transition: {
       duration: 0.7,
       type: "spring",
-      delay: 0.5
-    }
+      delay: 0.5,
+    },
   },
 
   exit: {
     opacity: 0,
     y: -200,
-    transition: { duration: 0.2 }
-  }
+    transition: { duration: 0.2 },
+  },
 };
 
 const Home = () => {
   // State
   const [showHeadingOne, setShowHeadingOne] = useState(true);
   const [showHeadingTwo, setShowHeadingTwo] = useState(false);
+  const [showHeadingThree, setShowHeadingThree] = useState(false);
 
   // Timeout
   useEffect(() => {
@@ -55,12 +56,18 @@ const Home = () => {
       if (showHeadingOne) {
         setShowHeadingOne(false);
         setShowHeadingTwo(true);
+        setShowHeadingThree(false);
+      } else if (showHeadingTwo) {
+        setShowHeadingOne(false);
+        setShowHeadingTwo(false);
+        setShowHeadingThree(true);
       } else {
         setShowHeadingOne(true);
         setShowHeadingTwo(false);
+        setShowHeadingThree(false);
       }
     }, 3000);
-  }, [showHeadingOne, showHeadingTwo]);
+  }, [showHeadingOne, showHeadingTwo, showHeadingThree]);
 
   return (
     <section className="home-container" id="home" name="home">
@@ -116,6 +123,20 @@ const Home = () => {
               </motion.h2>
             )}
           </AnimatePresence>
+
+          <AnimatePresence>
+            {showHeadingThree && (
+              <motion.h2
+                className="skill-content"
+                variants={childrenVariants}
+                exit="exit"
+                animate="animate"
+                initial="initial"
+              >
+                Blockchain | Smart Contracts | Web 3.0
+              </motion.h2>
+            )}
+          </AnimatePresence>
         </div>
         {/* // */}
         <div className="button-wrapper">
@@ -126,7 +147,7 @@ const Home = () => {
             Contact Me
           </button>
           <a
-            href="https://drive.google.com/file/d/1dwVciBEJ5bI4lC1pUfK5HL-ufU9970br/view?usp=sharing"
+            href="https://drive.google.com/file/d/1VZRhQNTsedhodcb2uOGuhRBCbsZ4kSvC/view"
             target="_blank"
             rel="noopener noreferrer"
           >

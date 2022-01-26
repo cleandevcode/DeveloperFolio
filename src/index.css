@@ -339,6 +339,12 @@ body {
 }
 
 /* Images Proportion (877 * 679)*/
+#shoclef {
+  background-image: url("./images/projects/shoclef.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #dancassab {
   background-image: url("./images/projects/dancassab.png");
   background-size: cover;
@@ -357,6 +363,24 @@ body {
   background-repeat: no-repeat;
 }
 
+#autotrader {
+  background-image: url("./images/projects/autotrader.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#gojirx {
+  background-image: url("./images/projects/gojirx.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#telus {
+  background-image: url("./images/projects/telus.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 #bizness {
   background-image: url("./images/projects/bizness.png");
   background-size: cover;
@@ -371,6 +395,12 @@ body {
 
 #onrun {
   background-image: url("./images/projects/onrun.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#klnkfnd {
+  background-image: url("./images/projects/klnkfnd.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
